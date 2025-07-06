@@ -11,7 +11,7 @@ certificate before displaying the response.
    directory. For example:
 
    ```bash
-   openssl ec -in server.key -pubout -out server-public.pem
+   openssl x509 -in  /etc/nginx/certs/192.168.1.21+1.pem -pubkey -noout
    ```
 2. Install dependencies:
 
