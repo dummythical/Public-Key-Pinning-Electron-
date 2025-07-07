@@ -1,4 +1,4 @@
-# Public Key Pinning Electron App
+# Public Key Pinning Electron App (test)
 
 This example Electron application fetches data from `https://192.168.1.21` on the
 local network using public key pinning. The server uses a self-signed
@@ -13,6 +13,7 @@ certificate before displaying the response.
    ```bash
    openssl x509 -in  /etc/nginx/certs/192.168.1.21+1.pem -pubkey -noout
    ```
+
 2. Install dependencies:
 
    ```bash
